@@ -1,5 +1,22 @@
 # Colorado STEM Ecosystem Android App
 
+## App Screenshots
+
+### Home and Navigation
+![Home Screen](screenshots/home_screen.png)
+![Navigation Drawer](screenshots/drawer.png)
+
+### Main Features
+![Login Screen](screenshots/login_screen.png)
+![Network Page](screenshots/network_page.png)
+![Mission Page](screenshots/mission_page.png)
+![About Page](screenshots/about_page.png)
+![Contact Page](screenshots/contact_page.png)
+![Join Page](screenshots/join_page.png)
+![Resources Page](screenshots/resouces_page.png)
+![Fun Facts](screenshots/fun_facts.png)
+![Donate Page](screenshots/donate_page.png)
+
 ## What this app does
 
 The Colorado STEM Ecosystem Android App is designed to connect and inform stakeholders in the STEM education community across Colorado. It offers the following key features:
