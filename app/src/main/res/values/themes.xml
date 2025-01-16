@@ -1,0 +1,19 @@
+<!--This is the default theme file for the app. It is used to define the theme for the app.-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project2_S24.8" parent="Theme.Material3.DayNight"/>
+    <!-- Customize your light theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    //this is a specific style used for the text in the buttons
+    <style name="button_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFCFC</item>
+    </style>
+    //this is a specific style used for text in the intro
+    <style name="intro_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Base.Theme.Project2_S24." parent="Base.Theme.Project2_S24" />
+</resources>

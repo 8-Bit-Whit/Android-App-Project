@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+    <!--This is the navigation graph for the app. It contains the fragments and actions that define the navigation flow of the app.-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.msudenver.cs3013.project2_s24.home_Fragment"
+        android:label="Home"
+        app:launchSingleTop="true">
+        <!--This app:launchSingleTop ensures that if the fragment is already on top of the stack, it won't create a new instance-->
+        <!--    This is the action that defines the navigation from the home fragment to the about ecosystem fragment-->
+        <action
+            android:id="@+id/action_home_to_about_eco"
+            app:destination="@id/nav_about_ecosystem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about_ecosystem"
+        android:name="edu.msudenver.cs3013.project2_s24.about_eco_Fragment"
+        android:label="About Ecosystem"
+        app:launchSingleTop="true">
+        <!-- This is the action that defines the navigation from the about ecosystem fragment to the join fragment via the join button-->
+        <action
+            android:id="@+id/action_nav_about_ecosystem_to_nav_Join"
+            app:destination="@id/nav_Join" />
+        <!-- This is the action that defines the navigation from the about ecosystem fragment to the mission fragment via the mission button-->
+        <action
+            android:id="@+id/action_nav_about_ecosystem_to_nav_mission"
+            app:destination="@id/nav_mission" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Join"
+        android:name="edu.msudenver.cs3013.project2_s24.join_Fragment"
+        android:label="Join"
+        app:launchSingleTop="true">
+        <!-- This is the action that defines the navigation from the join fragment to the contact fragment via the contact button-->
+        <action
+            android:id="@+id/action_nav_Join_to_nav_contact"
+            app:destination="@id/nav_contact" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="edu.msudenver.cs3013.project2_s24.network_Fragment"
+        android:label="Network"
+        app:launchSingleTop="true">
+        <!-- This is the action that defines the navigation from the network fragment to the resources fragment via the resources button-->
+        <action
+            android:id="@+id/action_nav_network_to_nav_resources"
+            app:destination="@id/nav_resources" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_mission"
+        android:name="edu.msudenver.cs3013.project2_s24.mission_Fragment"
+        android:label="Mission"
+        app:launchSingleTop="true">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_donate"
+        android:name="edu.msudenver.cs3013.project2_s24.donate_Fragment"
+        android:label="Donate"
+        app:launchSingleTop="true"
+        >
+        <!-- This is the action that defines the navigation from the donate fragment to the about ecosystem fragment via the about ecosystem button-->
+        <action
+            android:id="@+id/action_nav_donate_to_nav_about_ecosystem"
+            app:destination="@id/nav_about_ecosystem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="edu.msudenver.cs3013.project2_s24.contact_Fragment"
+        android:label="Contact"
+        app:launchSingleTop="true">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_resources"
+        android:name="edu.msudenver.cs3013.project2_s24.resources_Fragment"
+        android:label="Resources"
+        app:launchSingleTop="true">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fun_stem_facts"
+        android:name="edu.msudenver.cs3013.project2_s24.fun_stem_facts_Fragment"
+        android:label="Fun STEM Facts"
+        app:launchSingleTop="true">
+    </fragment>
+
+</navigation>

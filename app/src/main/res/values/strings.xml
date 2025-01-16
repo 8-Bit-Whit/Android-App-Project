@@ -1,0 +1,96 @@
+<resources>
+    <!-- This is the strings.xml file. It contains the string values used in the app.-->
+    <string name="app_name">project2-8-Bit-Whit</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="intro">Colorado STEM Ecosystem is a statewide network connecting businesses,
+        educators and more to improve STEM education across Colorado.
+        Our broad approach to STEM helps students develop the skills they need to succeed.
+        Sign up today to get involved!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="home">Home</string>
+    <string name="content">Content</string>
+    <string name="about_ecosystem">About Ecosystem</string>
+    <string name="join">Join</string>
+    <string name="network">Network</string>
+    <string name="mission">Mission</string>
+    <string name="donate">Donate</string>
+    <string name="contact">Contact</string>
+    <string name="resources">Resources</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="content_fragment">Content Fragment</string>
+    <string name="about_ecosystem_fragment">About Ecosystem Fragment</string>
+    <string name="join_fragment">Join Fragment</string>
+    <string name="network_fragment">Network Fragment</string>
+    <string name="mission_fragment">Mission Fragment</string>
+    <string name="donate_fragment">Donate Fragment</string>
+    <string name="contact_fragment">Contact Fragment</string>
+    <string name="resources_fragment">Resources Fragment</string>
+    <string name="link_to_content_button">Link to Content Button</string>
+    <string name="about_stem_heading1">Why STEM Ecosystems?</string>
+    <string name="about_ecosystem_text1">Why STEM Ecosystems?In ecology, an
+        ecosystem is a diverse community that coexists in a physical environment,
+        interacting in balanced ways that support all the organisms. The STEM Ecosystems
+        community strives to draw from the scientific idea of ecosystems to represent its
+        research-based efforts to build networks for the sharing of resources and expertise
+        among leaders from education, business and industry, non-profits, philanthropy,
+        and others. You can find out more about the national STEM Learning Ecosystem
+        Community of Practice launched in 2015</string>
+    <string name="about_stem_heading2">How will the Ecosystem be helpful to me and/or my organization?</string>
+    <string name="about_stem_text2">The Colorado STEM Ecosystem is designed so that you can
+        customize your involvement to meet your own needs. As of May 2022, there is a statewide Ecosystem,
+        but soon there will also be 8 regional hubs and a range of community-driven working groups on a
+        range of issues—you can opt in or out of any of these. Each will have its own listserv to
+        support group communications.The Colorado STEM Ecosystem is specially designed to support partnerships.
+        Possible partnerships include those for: Funding, Grants, Outreach, Volunteering, Research, Workforce Development,
+    Mentoring, Employment Opportunities, STEM Events, and Scholarships. </string>
+    <string name="about_stem_heading3">Why Join a STEM Ecosystem?</string>
+    <string name="about_stem_text3">The importance of joining a STEM Ecosystem in Colorado lies in
+        fostering collaboration across economic sectors and geographic regions. Currently, there is
+        limited interaction between these sectors, hindering the state ability to solve pressing issues.
+        Just as species thrive in ecosystems, communities thrive through strong partnerships. STEM Ecosystems
+        facilitate relationships among diverse entities such as pK to 12 districts, out of school providers,
+        museums, governments, and businesses. These partnerships enable sharing of STEM education and industry
+        advancements, promoting efficient progress and problem solving. Membership is open to all without cost,
+        requiring only completion of a membership form. Benefits include visibility on an interactive platform (Kumu),
+        where members can share information, and access to a communication channel (Google group) for regular
+        updates and collaboration facilitation.</string>
+    <string name="join_text2">When you join the Ecosystem, you contribute insights on the state of STEM in each region
+        and sector of Colorado and help to ensure your local interests and perspectives are represented.</string>
+    <string name="join_membership_direct_text">Clicking this button will direct
+        you to the web based membership form.</string>
+    <string name="visualization_text">The visualization below represents Colorado STEM Ecosystem members and their connections.
+        To protect the privacy of Ecosystem members, the public version of this visualization excludes individual information
+        including contacts and personal connections.In growing the Ecosystem, we are actively gathering information on the state
+        of STEM in each region and sector of Colorado to ensure local interests and perspectives are represented. The STEM Ecosystem
+        is comprised of PreK-12  administrators/educators, STEM programming providers, businesses, industry leaders, post-secondary
+        administrators/educators, government workers, professional organizations, non-profits, donors/funders, parents/communities,
+        medical/health care professionals, and military personnel, among others. The visualization below is interactive and automatically
+        updates to reflect new members of the Ecosystem.</string>
+    <string name="contact_text">Janelle M. Johnson, PhD, Colorado STEM Ecosystem 2.0 Director</string>
+    <string name="donate_text">Please consider making a donation of any amount to support the vital work of individuals,
+    organizations and community groups across the state working hard to ensure all Coloradans have the opportunity to
+        pursue their passions and achieve success.</string>
+    <string name="contact_text_2">Do not hesitate to reach out to us with any questions, concerns, and/or ideas. We are so
+        grateful for your time in joining this important network, and we look forward to collaborating with you.</string>
+    <string name="donate_directory_text">Clicking this button will take you to our online donation form.</string>
+    <string name="mission_text_body">The Colorado STEM Ecosystem 2.0 (CO STEM) is a statewide grassroots coalition to (1) uplift existing
+        successful efforts, and (2) jumpstart cross-sector collaboration to bridge educational and economic needs across Colorado.
+        Our definition of STEM is broad, interdisciplinary, and inclusive.Metropolitan State University of Denver agreed to serve as the
+        backbone organization for the refresh of the Colorado STEM Ecosystem with the support of Colorado Department of Education,
+        Colorado Succeeds, and MindSpark Learning. The Colorado STEM Ecosystem is housed in the Office of Education Solutions within
+        the School of Education at MSU Denver. CO STEM is a member of the national STEM Learning Ecosystems Community of Practice
+        working to improve access to high-quality STEM learning for all students. Launched in September 2015 by the STEM Funders Network,
+        the initiative empowers communities to create systemic change that ensures more students develop the STEM knowledge and skills
+        they need to learn and thrive in today’s world. When you join the Ecosystem, you contribute insights on the state of STEM in each
+        region and sector of Colorado and help to ensure your local interests and perspectives are represented. Please disseminate this website
+        among your networks and encourage them to join. Information from the membership form populates an online interactive visualization that
+        you can use to support your own networking. A few optional questions ask for data that will be aggregated to highlight important trends
+        and priorities of the Ecosystem–those questions are noted on the form. Do not hesitate to reach out to us with any questions, concerns,
+        and/or ideas. We are so grateful for your time in joining this important network, and we look forward to collaborating with you.
+        The STEM Ecosystem is comprised of businesses, industries, policy makers, STEM programming providers, post-secondary administrators/educators,
+        government agencies, professional organizations, trade associations, chambers of commerce, non-profits, donors, funders, philanthropists,
+        families, communities, medical and health care professionals, military personnel, and PreK-12 administrators/educators, among others.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

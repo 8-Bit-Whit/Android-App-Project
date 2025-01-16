@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--This is the layout file for the navigation drawer. It contains the UI elements for the navigation drawer.-->
+    <!--The group tag is used to group the items in the navigation drawer. -->
+    <!--The android:checkableBehavior attribute is set to single to ensure that only one item can be checked at a time.-->
+    <group android:checkableBehavior="single">
+        <!--This is the group of items in the navigation drawer. Each item is a menu item that the user can select.-->
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_about_ecosystem"
+            android:title="About Ecosystem"
+            />
+        <item
+            android:id="@+id/nav_Join"
+            android:title="Join"
+            />
+        <item
+            android:id="@+id/nav_network"
+            android:title="Network"
+            />
+        <item
+            android:id="@+id/nav_mission"
+            android:title="Mission"
+            />
+        <item
+            android:id="@+id/nav_donate"
+            android:title="Donate"
+            />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact"
+            />
+        <item
+            android:id="@+id/nav_resources"
+            android:title="Resources"
+            />
+        <item
+            android:id="@+id/nav_fun_stem_facts"
+            android:title="Fun STEM Facts"
+            />
+    </group>
+</menu>

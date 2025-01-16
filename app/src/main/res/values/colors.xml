@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is the colors.xml file. It contains the color values used in the app.-->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="turquoise">#28C4B1</color>
+    <color name="green">#48921A</color>
+    <color name="purple">#6B14A0</color>
+    <color name="red">#BF0A31</color>
+    <color name="orange">#F15923</color>
+    <color name="pink">#FE00EE</color>
+    <color name="yellow">#FFD600</color>
+    <color name="blue">#196CA5</color>
+    <color name="dark_blue">#0C2163</color>
+</resources>
